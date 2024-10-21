@@ -169,5 +169,11 @@ namespace vhp_segmentunzipper
         {
             this.displayImage = sender as System.Windows.Controls.Image;
         }
+
+        private void Window_Initialized(object sender, EventArgs e)
+        {
+            this.Left = 10;
+            this.Top = 10;
+        }
     }
 }
